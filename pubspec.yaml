@@ -1,0 +1,55 @@
+name: application
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.8.0
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  get: ^4.6.6
+  firebase_auth: ^5.4.1
+  flutter_animate: ^4.5.2
+  flutter_staggered_grid_view: ^0.7.0
+  animate_do: ^3.3.4
+  cupertino_icons: ^1.0.8
+  animated_bottom_navigation_bar: ^1.3.3
+  shared_preferences: ^2.0.8
+  intl: ^0.20.1
+  flutter_svg: ^2.0.16
+  flutter_staggered_animations: ^1.1.1
+  fl_chart: ^0.65.0
+  google_fonts: ^6.2.1
+  confetti: ^0.8.0
+  provider: ^6.1.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image/
+
+  fonts:
+    - family: WorkSansSemiBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-SemiBold.ttf
+
+    - family: WorkSansBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Bold.ttf
+
+    - family: WorkSansMedium
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Medium.ttf
